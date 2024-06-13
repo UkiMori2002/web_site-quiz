@@ -1,0 +1,46 @@
+.nav {
+  background-color: #4B39AA;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  background-color: #4B39AA;
+  color: white;
+  font-size: 19px;
+}
+
+body {
+  height: 2000px;
+}
+
+.footer{
+  background-color: #4B39AA;
+  color:azure;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a {
+  background-color: #4B39AA;
+  color: white;
+  font-size: 50px;
+}
+
+.button {
+  background-color: #EE51B1;
+  font-size: large;
+  border-radius: 40%
+}
+.custom-button {
+  color: #EE51B1; /* Изменение цвета текста кнопки на красный */
+  /* border-color: #FF6B6B; Изменение цвета границы кнопки на красный */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  padding-top: 40px;
+}
+
