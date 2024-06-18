@@ -27,7 +27,7 @@ export default class Header extends Component {
             <NavbarCollapse id="responsive-navbar-nav ">
               <Nav className="w-100 d-flex justify-content-around ">
                 <NavLink href='/'>Главная страница</NavLink>
-                <NavLink href='/team'>Команда</NavLink>
+                <NavLink href='/team'>Команды</NavLink>
                 <NavLink href='/unformation_about_us'>Информация о нас</NavLink>
                 <NavLink href='/personal_account'>Личный кабинет</NavLink>
               </Nav>
