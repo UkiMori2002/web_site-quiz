@@ -5,9 +5,9 @@ import gif from '../pictures/gif.gif';
 export default class extends Component {
   render() {
     return (
-      <div className='d-flex justify-content-center align-items-center row' style={{ height: '98vh' }}>
+      <div className='d-flex justify-content-center align-items-center row' style={{ height: '100vh', paddingTop: '80 px'  }}>
         <Container className='row' >
-          <div className='col-md-6   col-12 offset-1'>
+          <div className='col-md-6   col-11  offset-1'>
             <h1 className=' textBig'>Информация о нас</h1>
             <text className='textLitle'>Полное наименование: </text>
             <text className='text fw-light'>«Информационная система по организации и проведению кризов»</text><br />

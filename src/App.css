@@ -12,9 +12,14 @@
   font-size: 20px;
 }
 
-/* body {
-  height: 2000px;
-} */
+body {
+  background: #7362ca; /* Цвет фона */
+  background-size: cover; /* Устанавливает фон так, чтобы он покрывал весь экран */
+  background-attachment: fixed; /* Фиксирует фон, чтобы он не скроллировался вместе с содержимым */
+  margin: 0; /* Удаляет отступы по умолчанию */
+  padding: 0; /* Удаляет поля по умолчанию */
+  height: 100vh; /* Устанавливает высоту тега body на 100% от высоты экрана */
+}
 
 .footer{
   background-color: #4B39AA;
@@ -44,9 +49,6 @@
   position:relative;
   top: 100px;
 }
-body {
-  background-color: #7362CA;
-}
 
 .table{
   width: 2000px;
@@ -71,7 +73,7 @@ body {
 
 
 .text{
-  color: white;
+  color: white !important;
   font-size: 27px;
   align-items: center !important
 }
@@ -81,7 +83,19 @@ body {
   font-size: 50px;
 }
 
+.textLitle1{
+  color: white !important;
+  font-size: 35px !important;
+}
+
 .textLitle{
+  color: white !important;
+  font-size: 17px !important;
+  align-items: center !important
+}
+
+.textInfo{
   color: white;
-  font-size: 35px;
+  font-size: 15px;
+  align-items: center !important
 }

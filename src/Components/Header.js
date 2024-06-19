@@ -8,7 +8,7 @@ export default class Header extends Component {
   render() {
     return (
       <>
-        <Navbar fixed='top' collapseOnSelect expand="md" className='nav' >
+        <Navbar fixed="top" collapseOnSelect expand="md" className='nav' >
           <Container>
             <Navbar.Brand href='/' >
               <img

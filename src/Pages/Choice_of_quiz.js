@@ -26,7 +26,7 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
                 <Form.Label className='d-flex justify-content-center text'>Введите код квиза</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Введи кодик:D"
+                  placeholder="Введи кодик :D"
                   value={quizCode}
                   onChange={(e) => setQuizCode(e.target.value)}
                   required
