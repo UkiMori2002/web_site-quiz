@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Ознакомиться с макетом сайта, вы можете, перейдя по ссылке: https://www.figma.com/design/tNsh0lrWBzHceXBRXqJ1Py/App-for-quiz?m=auto&t=JyKwc8WfEZP1IHlF-6
 ## Available Scripts
 
 In the project directory, you can run:
