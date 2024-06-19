@@ -4,6 +4,7 @@ import '../App.css'
 
 export default class Personal_account extends Component {
   render() {
+    
     return (
       <>
         <Container className="footer">

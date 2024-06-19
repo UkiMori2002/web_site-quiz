@@ -17,7 +17,7 @@ export default class Team extends Component {
                 src={team7}
                 height='360'
                 width='120'
-                className='logo-block-header'
+                className='logo-block-header img-fluid'
                 alt='Logo'
               />
               <Card.Body>
@@ -39,7 +39,7 @@ export default class Team extends Component {
                 src={team10}
                 height='360'
                 width='120'
-                className='logo-block-header'
+                className='logo-block-header img-fluid'
                 alt='Logo'
               />
               <Card.Body>
@@ -61,7 +61,7 @@ export default class Team extends Component {
                 src={team4}
                 height='360'
                 width='120'
-                className='logo-block-header'
+                className='logo-block-header img-fluid'
                 alt='Logo'
               />
               <Card.Body>
@@ -76,8 +76,6 @@ export default class Team extends Component {
               </Card.Footer>
             </Card>
           </Container>
-
-
         </Container >
       </>
     )

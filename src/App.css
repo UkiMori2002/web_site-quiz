@@ -3,17 +3,18 @@
   color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav a {
   background-color: #4B39AA;
   color: white;
-  font-size: 19px;
+  font-size: 20px;
 }
 
-body {
+/* body {
   height: 2000px;
-}
+} */
 
 .footer{
   background-color: #4B39AA;
@@ -28,14 +29,15 @@ body {
   font-size: 50px;
 }
 
-.button {
-  background-color: #EE51B1;
-  font-size: large;
-  border-radius: 40%
-}
-.custom-button {
-  color: #EE51B1; /* Изменение цвета текста кнопки на красный */
-  /* border-color: #FF6B6B; Изменение цвета границы кнопки на красный */
+.button{
+  background-color: #EE51B1 !important;
+  width: 250px !important;
+  height: 50px !important;
+  border-radius: 800px !important;  
+  align-items: center !important;
+  font-size: 19px !important;
+  display: flex !important;
+  justify-content: center !important;
 }
 
 .pad {
@@ -52,4 +54,34 @@ body {
 }
 .card {
   margin-bottom: 10px;
+}
+
+.form{
+  background: linear-gradient(to bottom,  #4b2d9f 45%,#7362ca 100%);
+  width: 650px; 
+  height: 200px; 
+  max-width: 700px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .form {
+    padding: 2rem;
+  }
+}
+
+
+.text{
+  color: white;
+  font-size: 27px;
+  align-items: center !important
+}
+
+.textBig{
+  color: white;
+  font-size: 50px;
+}
+
+.textLitle{
+  color: white;
+  font-size: 35px;
 }
