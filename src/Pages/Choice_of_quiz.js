@@ -9,7 +9,7 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
       e.preventDefault();
   
       if (quizCode === '1234') {
-        window.location.href = "/team";
+        window.location.href = "/quiz_info";
         
       } else {
         alert('К сожалению, мы не можем найти такой квиз. Попробуйте еще раз <3');
@@ -33,9 +33,7 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
                   className="rounded-pill "
                   style={{ width: 435 }}
                 />
-                <Button type="submit" className='button mx-auto mt-3'>
-                  Присоединиться
-                </Button>
+                <Button type="submit" className='button mx-auto mt-3'>Присоединиться</Button>
               </Form.Group>
             </Form>
           </Col>

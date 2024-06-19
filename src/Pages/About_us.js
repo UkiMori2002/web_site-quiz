@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import {Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import gif from '../pictures/gif.gif';
 
-export default class Unformation_about_us extends Component {
+export default class extends Component {
   render() {
     return (
-      <div className='d-flex justify-content-center align-items-center row' style={{ height: '100vh' }}>
-        <Container className='row'>
+      <div className='d-flex justify-content-center align-items-center row' style={{ height: '98vh' }}>
+        <Container className='row' >
           <div className='col-md-6   col-12 offset-1'>
             <h1 className=' textBig'>Информация о нас</h1>
             <text className='textLitle'>Полное наименование: </text>

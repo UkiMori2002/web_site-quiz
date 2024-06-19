@@ -1,22 +1,17 @@
 import React, { Component } from 'react'
-import { Container, NavLink, NavbarCollapse, Nav } from 'react-bootstrap'
+import { Container} from 'react-bootstrap'
 import '../App.css'
 
 export default class Personal_account extends Component {
   render() {
-    
+
     return (
       <>
-        <Container className="footer">
-          <Container className="w-100 d-flex justify-content-around">
-            <NavbarCollapse id="responsive-navbar-nav ">
-              <Nav className="d-flex justify-content-end">
-                <NavLink href='/player'>Главная страница</NavLink>
-                <NavLink href='/personal_account'>О нас</NavLink>
-                <NavLink href='/personal_account'>О создателе</NavLink>
-              </Nav>
-            </NavbarCollapse>
-          </Container>
+        <Container className='d-flex justify-content-center align-items-center row' style={{ height: '100vh' }}>
+          <div  className='col-md-6   col-12 offset-1'>
+            <h1 className=' textBig'>На стадии разработки</h1>
+          <text className='textLitle'>Обещаю, к диплому все будет готово</text>
+          </div>
         </Container>
       </>
     )

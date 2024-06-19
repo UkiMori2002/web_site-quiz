@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
-import { CardGroup, CardDeck, Card, Button, Container, ListGroup, Body, Spacer, Table } from 'react-bootstrap';
+import {Card, Button, Container} from 'react-bootstrap';
 import team7 from '../pictures/team7.jpg';
 import team10 from '../pictures/Team10.jpg';
 import team4 from '../pictures/Team_Gai.jpg';
@@ -9,7 +9,8 @@ export default class Team extends Component {
   render() {
     return (
       <>
-        <Container className='mx-auto pad row g-4'>
+      <Container className='d-flex justify-content-center align-items-center  ' style={{ height: '100vh' }}>
+<Container className='mx-auto  row'>
           <h2 className='text-center'>Список команд</h2>
           <Container className='col-md-4'>
             <Card>
@@ -20,7 +21,7 @@ export default class Team extends Component {
                 className='logo-block-header img-fluid'
                 alt='Logo'
               />
-              <Card.Body>
+              <Card.Body  bg='pink'>
                 <Card.Title className='text-center' >Команда номер 7</Card.Title>
                 <Card.Text>
                   <h6>Капитан команды:</h6> Какаси Хатакэ
@@ -28,7 +29,7 @@ export default class Team extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="d-flex justify-content-center">
-                <Button variant="outline-primary" >Посмотреть команду</Button>
+                <Button className='button' >Посмотреть команду</Button>
               </Card.Footer>
             </Card>
           </Container>
@@ -50,7 +51,7 @@ export default class Team extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="d-flex justify-content-center">
-                <Button variant="outline-primary" >Посмотреть команду</Button>
+                <Button className='button' >Посмотреть команду</Button>
               </Card.Footer>
             </Card>
           </Container>
@@ -72,11 +73,13 @@ export default class Team extends Component {
                 </Card.Text>
               </Card.Body>
               <Card.Footer className="d-flex justify-content-center">
-                <Button variant="outline-primary" >Посмотреть команду</Button>
+                <Button className='button'>Посмотреть команду</Button>
               </Card.Footer>
             </Card>
           </Container>
         </Container >
+      </Container>
+        
       </>
     )
   }
