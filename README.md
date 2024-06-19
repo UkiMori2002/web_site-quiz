@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Ознакомиться с макетом сайта, вы можете, перейдя по ссылке: https://www.figma.com/design/Xx1h7iSIiTKUqgEzAMbLd1/web-quiz?m=auto&t=Cgn39VlG3OIeFauC-6
+## Ознакомиться с макетом сайта, вы можете, перейдя по ссылке:  <a hreaf=' https://www.figma.com/design/Xx1h7iSIiTKUqgEzAMbLd1/web-quiz?m=auto&t=Cgn39VlG3OIeFauC-6'> тыкни)))</a>
 ## Available Scripts
 
 In the project directory, you can run:
