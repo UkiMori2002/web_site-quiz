@@ -17,8 +17,9 @@ function Quiz_play() {
         const newAnswers = [...answers];
         newAnswers[index] = event.target.value;
         setAnswers(newAnswers);
-    };
-
+    }; 
+ 
+    
     const handleSubmit = (event) => {
         event.preventDefault();
         const results = questions.map((item, index) => {

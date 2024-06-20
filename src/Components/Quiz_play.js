@@ -70,7 +70,7 @@
                 setResults({ ...results, incorrect: results.incorrect + 1 });
             }
             setSelectedAnswer(null);
-            setAnswerSelected(false); 
+            setAnswerSelected(false);   
             if (currentQuestion < 4 ) {
                 setCurrentQuestion(currentQuestion + 1);
             } else {
@@ -82,8 +82,8 @@
             setCurrentQuestion(0);
             setResults({ correct: 0, incorrect: 0 });
             setShowResults(false);
-        };
-
+        }; 
+ 
         return (
             <Container className='d-flex justify-content-center align-items-center' style={{ height: '100vh' }}>
                 {showResults ? (
@@ -100,7 +100,7 @@
                                                 key={optionIndex}
                                                 className={`list-group-item list-group-item-action ${selectedAnswer === option.isCorrect ? (option.isCorrect ? 'bg-success' : 'bg-danger') : ''}`}
                                                 onClick={() => {
-                                                    if (!answerSelected) { // Проверяем, был ли уже сделан выбор
+                                                    if (!answerSelected) { // тут проверка сделан ли выбор, если да
                                                         handleAnswer(option.isCorrect);
                                                     }
                                                 }}
