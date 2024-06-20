@@ -60,7 +60,7 @@
 
         const handleAnswer = (isCorrect) => {
             setSelectedAnswer(isCorrect);
-            setAnswerSelected(true); // Устанавливаем флаг, что ответ выбран
+            setAnswerSelected(true); 
         };
 
         const nextQuestion = () => {
@@ -70,7 +70,7 @@
                 setResults({ ...results, incorrect: results.incorrect + 1 });
             }
             setSelectedAnswer(null);
-            setAnswerSelected(false); // Сбрасываем флаг answerSelected
+            setAnswerSelected(false); 
             if (currentQuestion < 4 ) {
                 setCurrentQuestion(currentQuestion + 1);
             } else {

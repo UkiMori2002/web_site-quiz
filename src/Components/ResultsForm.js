@@ -8,7 +8,7 @@ const ResultsForm = ({ results, restartQuiz }) => (
       <Card.Title className='d-flex justify-content-center mb-4 textLitle1'>Результаты квиза</Card.Title>
       <p className='textLitle'>Правильных ответов: {results.correct}</p>
       <p className='textLitle'>Неправильных ответов: {results.incorrect}</p>
-      <Button className='button mx-auto ' onClick={restartQuiz}>Перезапустить квиз</Button>
+      <Button className='button mx-auto ' href='/personal_account' >Завершить тест</Button>
     </Card.Body>
   </Card>
 );
